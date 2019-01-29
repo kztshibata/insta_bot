@@ -98,7 +98,7 @@ class InstaBot
   end
 
   def fetch_like_btn
-    page.all("//a[@role='button']/span[text()='Like']/..")[0]
+    page.all("/html/body/div[2]/div/div[2]/div/article/div[2]/section[1]/span[1]/button/span")[0]
   end
 
   def fetch_unlike_btn
