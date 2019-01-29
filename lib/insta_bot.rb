@@ -28,7 +28,7 @@ class InstaBot
     fill_in 'username', with: username
     fill_in 'password', with: password
 
-    click_button 'Log in'
+    click_button 'ログイン'
 
     logger.info("logged as #{username}")
   end
